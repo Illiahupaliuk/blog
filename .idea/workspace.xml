@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a52696e9-ce77-4bea-903a-f3db1684d5ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/BlogCategory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/BlogPostFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_03_164427_create_blog_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_03_164537_create_blog_posts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/BlogCategoriesTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Blog/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RestTestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/posts/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/BlogPost.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +227,13 @@
       <workItem from="1617203129020" duration="1710000" />
       <workItem from="1617263120025" duration="2969000" />
       <workItem from="1617462530411" duration="10740000" />
-      <workItem from="1617533555613" duration="4426000" />
+      <workItem from="1617533555613" duration="5305000" />
+      <workItem from="1617553626958" duration="3608000" />
+      <workItem from="1617558845026" duration="4829000" />
+      <workItem from="1617604565649" duration="820000" />
+      <workItem from="1617719774747" duration="2785000" />
+      <workItem from="1617722875202" duration="502000" />
+      <workItem from="1617782228537" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="Test commit">
       <created>1616011157535</created>
@@ -253,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617467834167</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Laba 2">
+      <created>1617538407054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617538407054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +303,7 @@
     <MESSAGE value="Test commit" />
     <MESSAGE value="LABA №1" />
     <MESSAGE value="Laba 1 unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laba 1 unversioned files" />
+    <MESSAGE value="Laba 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laba 2" />
   </component>
 </project>
